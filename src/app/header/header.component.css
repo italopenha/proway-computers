@@ -7,9 +7,13 @@
     column-gap: 40px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-header__title {    
     font-size: 80px;
-    letter-spacing: -1.5px;    
+    letter-spacing: -1.5px;  
 }
 
 .main-header__title--blue {

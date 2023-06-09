@@ -1,7 +1,9 @@
 <header class="main-header">
-    <h1 class="main-header__title">
-        <span class="main-header__title--blue">ProWay</span><span class="main-header__title--orange">Computers</span>
-    </h1>
+    <a routerLink="">
+        <h1 class="main-header__title">
+            <span class="main-header__title--blue">ProWay</span><span class="main-header__title--orange">Computers</span>
+        </h1>
+    </a>
     <div class="container-menu">
         <nav class="main-header__menu">
             <ul>
@@ -9,7 +11,7 @@
                     <a href="">Produtos</a>
                 </li>
                 <li>
-                    <a href="">
+                    <a routerLink="/carrinho">
                         <i class="fa-solid fa-cart-shopping"></i>
                         Carrinho
                         <span class="badge-carrinho">{{ carrinhoService.obtemCarrinho().length }}</span>
